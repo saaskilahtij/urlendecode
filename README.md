@@ -9,7 +9,7 @@ git clone https://github.com/saaskilahtij/urlendecode.git && cd urlendecode
 ```
 Make them executable:
 ```
-sudo chmod +x urlencode.sh && sudo chmod urldecode.sh
+sudo chmod +x urlencode.sh && sudo chmod +x urldecode.sh
 ```
 Move them to /usr/local/bin:
 ```
