@@ -17,12 +17,12 @@ sudo mv urlencode.sh /usr/local/bin && sudo mv urldecode.sh /usr/local/bin
 ```
 Encode:
 ```bash
-$ urlencode https://example.com?arg={[]}+$ 
+$ urlencode 'https://example.com?arg={[]}+$'
 https%3A%2F%2Fexample.com%3Farg%3D%7B%5B%5D%7D%2B%24
 ```
 Decode:
 ```bash
-$ urldecode https%3A%2F%2Fexample.com%3Farg%3D%7B%5B%5D%7D%2B%24
+$ urldecode 'https%3A%2F%2Fexample.com%3Farg%3D%7B%5B%5D%7D%2B%24'
 https://example.com?arg={[]}+$
 ```
 Clean the evidence:
