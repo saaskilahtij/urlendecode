@@ -15,7 +15,6 @@ Move them to /usr/local/bin:
 ```
 sudo mv urlencode.sh /usr/local/bin && sudo mv urldecode.sh /usr/local/bin
 ```
-Then use freely!
 Encode:
 ```bash
 $ urlencode https://example.com?arg={[]}+$ 
