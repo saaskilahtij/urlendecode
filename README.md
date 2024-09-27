@@ -13,7 +13,7 @@ sudo chmod +x urlencode.sh && sudo chmod +x urldecode.sh
 ```
 Move them to /usr/local/bin:
 ```
-sudo mv urlencode.sh /usr/local/bin && sudo mv urldecode.sh /usr/local/bin
+sudo mv urlencode.sh /usr/local/bin/urlencode && sudo mv urldecode.sh /usr/local/bin/urldecode
 ```
 Encode:
 ```bash
