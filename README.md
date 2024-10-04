@@ -3,7 +3,17 @@ Take the pain away from URL encoding and decoding. Simple and elegant.
 
 # Installation
 
-First clone:
+Oneliner for lazy people (me):
+```
+sudo apt install jq && git clone https://github.com/saaskilahtij/urlendecode.git && cd urlendecode && sudo chmod +x urlencode.sh && sudo chmod +x urldecode.sh && sudo mv urlencode.sh /usr/local/bin/urlencode && sudo mv urldecode.sh /usr/local/bin/urldecode
+```
+
+Install required packages
+```
+sudo apt install jq
+```
+
+Then clone the repository:
 ```
 git clone https://github.com/saaskilahtij/urlendecode.git && cd urlendecode
 ```
